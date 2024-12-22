@@ -7,9 +7,9 @@ app.get('/', (req, res) => {
     creator: 'Unknown One'
   })})
 
-app.get('/endi', (req, res) => {
+app.get('/axl', (req, res) => {
   res.json({
-    creator: 'Unknown One'
+    creator: 'Ajsal-Sparky'
   })})
   
 
