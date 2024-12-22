@@ -6,6 +6,11 @@ app.get('/', (req, res) => {
   res.json({
     creator: 'Unknown One'
   })})
+
+app.get('/endi', (req, res) => {
+  res.json({
+    creator: 'Unknown One'
+  })})
   
 
 app.listen(8080, () => {
